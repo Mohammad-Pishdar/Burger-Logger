@@ -21,13 +21,13 @@ $(() => {
     );
   });
 
-  $(".create-form").on("submit", (event) => {
+  $(".burger-submit-form").on("submit", (event) => {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
     const newBurger = {
-      burger_name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      burger_name: $("#burger").val().trim(),
+      devoured: false
     };
 
     // Send the POST request.
