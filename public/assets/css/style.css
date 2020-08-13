@@ -17,3 +17,32 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.burger-submit-form {
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  height: 75px;
+  width: 90%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-color: rgb(217, 176, 28)
+}
