@@ -46,3 +46,24 @@ h1 {
 body {
   background-color: rgb(217, 176, 28)
 }
+
+.lists {
+  display: flex;
+  justify-content: center;
+}
+
+.ready-to-be-devoured-list {
+  margin: 50px;
+}
+
+.devoured-list {
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}

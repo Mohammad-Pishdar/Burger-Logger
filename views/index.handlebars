@@ -3,28 +3,33 @@
 <img src="assets/img/burger.png" alt="Girl in a jacket" width="200" height="200">
 <h1>Eat-Da-Burger!</h1>
 
-<h2>Burgers ready to be devoured!</h2>
+<div class="lists">
+<div class = "ready-to-be-devoured-list">
+  
+  <h2>Burgers ready to be devoured!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+  <ul>
+    {{#each burgers}}
+      {{#unless devoured}}
+        {{> burgers/burger-block devoured=true}}
+      {{/unless}}
+    {{/each}}
+  </ul>
+</div>
 
-<h2>Devoured burgers!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      <li>
-        {{burger_name}}
-      </li>
-    {{/if}}
-  {{/each}}
-</ul>
-
+<div class="devoured-list">
+  <h2>Devoured burgers!</h2>
+  <ul>
+    {{#each burgers}}
+      {{#if devoured}}
+        <li>
+          {{id}}. {{burger_name}}
+        </li>
+      {{/if}}
+    {{/each}}
+  </ul>
+</div>
+</div>
 
 <form class="burger-submit-form">
   <div class="form-group">
