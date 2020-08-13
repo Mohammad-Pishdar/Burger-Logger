@@ -16,7 +16,7 @@
 
   ## Installation
 
-  This app is hosted on heroku using JAWSDB MySQL add-on which acts as an online host for its SQL database. You can access the app by clicking [here] (https://damp-springs-33070.herokuapp.com/).
+  This app is hosted on heroku using JAWSDB MySQL add-on which acts as an online host for its SQL database. You can access the app by clicking [here](https://damp-springs-33070.herokuapp.com/).
 
   ## Usage
 
