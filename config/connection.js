@@ -1,12 +1,11 @@
 // Set up MySQL connection.
 const mysql = require("mysql");
 
-const connection;
+let connection;
 
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
-}
-esle {
+} else {
   connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
