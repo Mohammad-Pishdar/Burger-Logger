@@ -20,7 +20,8 @@
 
   ## Usage
 
-  The app has a list of pre-defined burgers in its databse that are ready to be dveoured. If you click on the devour button next to each item in that list, it will be moved to the lsit of devoured burgers on the right side of the page. You can also create new burgers by typing their names in the provided form on the page and clicking the submit button that will then adds them to the lest of burgers ready to be devoured on the left side of the page. Overall, the idea here is to show basic databse access and manipulation that takes place completely on the server-side and injecting the retrieved data into html using handlbars.  
+  The app has a list of pre-defined burgers in its databse that are ready to be dveoured. If you click on the devour button next to each item in that list, it will be moved to the lsit of devoured burgers on the right side of the page. You can also create new burgers by typing their names in the provided form on the page and clicking the submit button that will then adds them to the lest of burgers ready to be devoured on the left side of the page. Overall, the idea here is to show basic databse access and manipulation that takes place completely on the server-side and injecting the retrieved data into html using handlbars. 
+  ![app screenshot](https://github.com/Mohammad-Pishdar/Burger-Logger/blob/master/readmeImages/eatdaburger.jpg)
 
   ## License
 
